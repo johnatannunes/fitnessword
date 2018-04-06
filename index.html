@@ -1,14 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-    <!-- Add to homescreen for Chrome on Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-
-  <!-- Add to homescreen for Safari on iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+<head>  
   
     <script>
         sessionStorage.redirect = index.html;
@@ -19,27 +11,22 @@
           (function(){
             var redirect = sessionStorage.redirect;
             delete sessionStorage.redirect;
-            if (redirect && redirect !=  index.html) {
+            if (redirect && redirect != index.html) {
               history.replaceState(null, null, redirect);
             }
           })();
         </script>
-  </head>
-   <!-- Tile icon for Win8 (144x144 + tile color) -->
-   <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-   <meta name="msapplication-TileColor" content="#3372DF">
-  <title>gymsoftware</title>
+
+  <meta charset="utf-8">
+  <title>Gym</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-
 </head>
 <body>
-  <h1>hoça</h1>
-    <app-root></app-root>
 
- 
+      <h1>Ola</h1>
+  <app-root></app-root>
 <script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
 </html>
