@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = ".card-center{\n    position: relative;\n    left: 14.3%;\n    width: 82.3%;\n    height: 493px;\n}"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n"
 
 /***/ }),
 
